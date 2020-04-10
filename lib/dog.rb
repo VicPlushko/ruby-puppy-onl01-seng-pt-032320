@@ -13,8 +13,9 @@ class Dog
   end
   
   def self.print_all
-    @@all.each(&:to_s)
-    puts @name.to_s
+    @@all.each { |pups| pups = @name}
+    puts pups
+   
 end
   
   def self.clear_all
