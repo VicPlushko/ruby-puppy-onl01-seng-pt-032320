@@ -17,6 +17,7 @@ class Dog
     pups = @name
     puts pups
   end
+end
   
   def self.clear_all
     @@all.clear
