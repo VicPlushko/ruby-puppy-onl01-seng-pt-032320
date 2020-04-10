@@ -13,8 +13,8 @@ class Dog
   end
   
   def self.print_all
-    @@all.each { |pups| pups.to_s }
-    puts pups
+    @@all.each(&:to_s)
+    puts @@all
    
 end
   
