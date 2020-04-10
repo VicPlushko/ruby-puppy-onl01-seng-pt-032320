@@ -14,7 +14,6 @@ class Dog
   
   def self.print_all
     puts @@all.each { |pups| pups.to_s }
-       
   end
 end
   
