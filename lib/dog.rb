@@ -13,7 +13,8 @@ class Dog
   end
   
   def self.print_all
-     @@all.compact!
+     @@all.compact!.each do |pups|
+       
     puts @@all
   end
   
