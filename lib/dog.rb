@@ -13,9 +13,8 @@ class Dog
   end
   
   def self.print_all
-     @@all.each do |pups| 
-    pups = @name
-    puts pups
+     @@all.each.chomp!
+    puts @@all
   end
 end
   
