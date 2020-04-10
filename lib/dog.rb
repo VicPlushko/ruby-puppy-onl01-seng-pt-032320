@@ -13,10 +13,10 @@ class Dog
   end
   
   def self.print_all
-  puts @@all.each(&:to_s)
-    
-   
-end
+     @@all.each do |pups| 
+    pups = @name
+    puts pups
+  end
   
   def self.clear_all
     @@all.clear
