@@ -16,7 +16,6 @@ class Dog
      @@all.each.chomp!
     puts @@all
   end
-end
   
   def self.clear_all
     @@all.clear
