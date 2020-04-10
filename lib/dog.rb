@@ -13,7 +13,7 @@ class Dog
   end
   
   def self.print_all
-     @@all.chomp!
+     @@all.compact!
     puts @@all
   end
   
